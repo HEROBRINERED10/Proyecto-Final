@@ -1,0 +1,1780 @@
+@media (min-width:1200px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Minecraft;
+    }
+    html{
+        background-color: rgb(10, 0, 70);
+        justify-content: center;
+        display: flex;
+    }
+    body{
+        width: 1100px;
+        /* justify-content: center; */
+    }
+    #header{
+        width: 100%;
+        height: 102px;
+        border-radius: 21px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    header{
+        /* background-color: darkslategrey; */
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid gold;
+        border-radius: 21px;
+        /* position: fixed;
+        z-index: +1; */
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 21px;
+    }
+    .header > img{
+        border-radius: 21px;
+    }
+    #contenedor{
+        margin-top: 10px;
+        width: auto;
+        height: 900px;
+        /* background-color: mediumspringgreen; */
+        display: flex;
+        border-radius: 21px;
+    }
+    nav{
+        /* background-color: mediumslateblue; */
+        width: 30%;
+        height: auto;
+        display: flex;
+        border-radius: 21px;
+        border: 2px solid gold;
+        flex-direction: column;
+        align-items: center;
+    }
+    .novisible{
+        display: none;
+    }
+    ul{
+        width: 100%;
+        height: 300px;
+        /* background-color: brown; */
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+        border-left: 1px solid gold;
+        border-right: 1px solid gold;
+        border-bottom: 1px solid gold;
+        display: flex;
+        flex-direction: column;
+    }
+    ul > div{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 21px;
+    }
+    li{
+        justify-content: center;
+        width: 40%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        text-align: center;
+        border: 2px solid gold;
+        border-radius: 21px;
+    }
+    .a{
+        text-decoration: none;
+        transition: ease 0.5s;
+        color: white;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+    }
+    .a:hover{
+        font-size: 120%;
+        /* background-color: coral; */
+        border-radius: 21px;
+        color: gold;
+    }
+    .cajap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .pb{
+        width: 40%;
+        height: 60px;
+        font-size: 105%;
+        border-radius: 21px;
+        background: none;
+        color: white;
+        border: 2px solid gold;
+        transition: 0.5s ease;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pb:hover{
+        font-size: 125%;
+        /* background: -webkit-radial-gradient(rgb(0, 0, 0), rgb(255, 0, 0)); */
+        color: gold;
+    }
+    #menu{
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menuv{
+        display: none;
+    }
+    .frame{
+        position: absolute;
+    }
+    .nether{
+        position: absolute;
+    }
+    .caja{
+        display: flex;
+        align-items: center;
+        width: 91%;
+        height: 50px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .textcaja{
+        width: 91%;
+        height: 50px;
+        border-radius: 21px;
+        border: 2px solid gold;
+        text-align: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 60%);
+        color: white;
+        font-size: 1em;
+        display: block;
+    }
+    #separador{
+        width: 5%;
+        height: 100%;
+    }
+    main{
+        width: 65%;
+        height: auto;
+        background-color: rgb(60, 60, 70);
+        border-radius: 21px;
+        border: 2px solid gold;
+        color: snow;
+    }
+    #t{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    #muro{
+        overflow: auto;
+        height: 850px;
+        width: 100%;
+    }
+    #muro::-webkit-scrollbar{
+        width: 1px;
+    }
+    #muro::-webkit-scrollbar-thumb{
+        width: 1px;
+    }
+    #art1{
+        margin-top: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+        height: 820px;
+        width: 94%;
+    }
+    #art1 > div{
+        width: 100%;
+    }
+    footer{
+        /* background-color: white; */
+        color: rgb(0, 255, 234);
+        margin-top: 10px;
+        width: auto;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+        border: 2px solid gold; 
+        letter-spacing: 1px;
+        font-size: 1.2em;
+    }
+    footer > p{
+        filter: drop-shadow(0px 0px 9px rgb(19, 19, 91)/*, rgb(255, 0, 0)*/); 
+    }
+    footer > p:hover{
+        transition: all 0.5s ease 0.2s;
+        color: gold;
+        font-size: 109%;
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-acerca{
+        width: 500px;
+        height: 550px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+    }
+    .acer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: gold;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu{
+        width: auto;
+    }
+    .textpapu{
+        width: auto;
+        padding-left: 10px;
+    }
+    .cheems{
+        width: auto;
+    }
+    .cerrarbtn{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .overlay2{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active2{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-micuenta{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+    }
+    .micuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active3{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu2{
+        width: auto;
+    }
+    .fcuenta{
+        width: 250px;
+    }
+    .micuenta > .fcuenta > form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+    }
+    .micuenta > .fcuenta > form > input{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        background-color: aqua;
+        color: black;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > input:hover{
+        background-color: lime;
+        color: black;
+    }
+    .micuenta > .fcuenta > form > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .cerrarbtn2{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn2:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    #hola{
+        font-size: 120%;
+    }
+    .overlay3{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active4{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-cuenta{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+    }
+    .cuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+        color: gold;
+        font-size: 2em;
+    }
+    .cuenta > .perfil{
+        margin-top: 20px;
+    }
+    .cuenta > .correoc{
+        margin-top: 20px;
+        color: aqua;
+        font-size: 25px;
+    }
+    .active5{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .cerrarbtn3{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+        border: none;
+        cursor: pointer;
+    }
+    .cerrarbtn3:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .cuenta > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+        cursor: pointer;
+        margin-top: 20%;
+    }
+    .cuenta > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .activeGlobal{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .activeGlobal1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media (min-width:721px) and (max-width:1199px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Minecraft;
+    }
+    html{
+        background-color: rgb(10, 0, 70);
+        justify-content: center;
+        display: flex;
+    }
+    body{
+        width: 1100px;
+    }
+    #header{
+        width: 100%;
+        height: 102px;
+        border-radius: 21px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    header{
+        /* background-color: darkslategrey; */
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid gold;
+        border-radius: 21px;
+        /* position: fixed;
+        z-index: +1; */
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 21px;
+    }
+    .header > img{
+        border-radius: 21px;
+    }
+    #contenedor{
+        margin-top: 10px;
+        width: 100%;
+        height: 900px;
+        /* background-color: mediumspringgreen; */
+        display: flex;
+        flex-direction: column;
+        border-radius: 21px;
+    }
+    nav{
+        /* background-color: mediumslateblue; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        border-radius: 21px;
+        border: 2px solid gold;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+    .novisible{
+        display: none;
+    }
+    ul{
+        width: 50%;
+        height: 100px;
+        /* background-color: brown; */
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+        border-right: 1px solid gold;
+        display: flex;
+    }
+    ul > div{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        border-radius: 21px;
+    }
+    li{
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border: 2px solid gold;
+        border-radius: 21px;
+    }
+    .a{
+        text-decoration: none;
+        transition: ease 0.5s;
+        color: white;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+    }
+    .a:hover{
+        font-size: 120%;
+        /* background-color: coral; */
+        border-radius: 21px;
+        color: gold;
+    }
+    .cajap{
+        width: 50%;
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .pb{
+        width: 40%;
+        height: 60px;
+        font-size: 105%;
+        border-radius: 21px;
+        background: none;
+        color: white;
+        border: 2px solid gold;
+        transition: 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pb:hover{
+        font-size: 125%;
+        /* background: -webkit-radial-gradient(rgb(0, 0, 0), rgb(255, 0, 0)); */
+        color: gold;
+    }
+    #menu{
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 2%;
+        right: 4%;
+    }
+    .menuv{
+        display: block;
+    }
+    .frame{
+        position: absolute;
+    }
+    .nether{
+        position: absolute;
+    }
+    .caja{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 50px;
+        justify-content: center;
+        transition: 0.5s ease;
+    }
+    .textcaja{
+        width: 100%;
+        height: 50px;
+        border-radius: 21px;
+        border: 2px solid gold;
+        text-align: center;
+        justify-content: center;
+        /* background: rgba(0, 0, 0, 60%); */
+        font-size: 1em;
+        display: block;
+        transition: 0.5s ease;
+    }
+    #separador{
+        width: 100%;
+        height: 10px;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(60, 60, 70);
+        border-radius: 21px;
+        border: 2px solid gold;
+        color: snow;
+    }
+    #t{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    #muro{
+        overflow: auto;
+        height: 745px;
+        width: 100%;
+    }
+    #muro::-webkit-scrollbar{
+        width: 1px;
+    }
+    #muro::-webkit-scrollbar-thumb{
+        width: 1px;
+    }
+    #art1{
+
+        margin-top: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+        height: 710px;
+        width: 94%;
+    }
+    #art1 > div{
+        width: 100%;
+    }
+    footer{
+        /* background-color: white; */
+        color: rgb(0, 255, 234);
+        margin-top: 10px;
+        width: auto;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+        border: 2px solid gold; 
+        letter-spacing: 1px;
+        font-size: 1.2em;
+    }
+    footer > p{
+        filter: drop-shadow(0px 0px 9px rgb(19, 19, 91)/*, rgb(255, 0, 0)*/); 
+    }
+    footer > p:hover{
+        transition: all 0.5s ease 0.2s;
+        color: gold;
+        font-size: 109%;
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-acerca{
+        width: 500px;
+        height: 550px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .acer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: gold;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu{
+        width: auto;
+    }
+    .textpapu{
+        width: auto;
+        padding-left: 10px;
+    }
+    .cheems{
+        width: auto;
+    }
+    .cerrarbtn{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .overlay2{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active2{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-micuenta{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .micuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active3{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu2{
+        width: auto;
+    }
+    .fcuenta{
+        width: 250px;
+    }
+    .micuenta > .fcuenta > form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+    }
+    .micuenta > .fcuenta > form > input{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        background-color: aqua;
+        color: black;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > input:hover{
+        background-color: lime;
+        color: black;
+    }
+    .micuenta > .fcuenta > form > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .cerrarbtn2{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn2:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .overlay3{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active4{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-cuenta{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .cuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+        color: gold;
+        font-size: 2em;
+    }
+    .cuenta > .perfil{
+        margin-top: 20px;
+    }
+    .cuenta > .correoc{
+        margin-top: 20px;
+        color: aqua;
+        font-size: 25px;
+    }
+    .active5{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .cerrarbtn3{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+        border: none;
+        cursor: pointer;
+    }
+    .cerrarbtn3:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .cuenta > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+        cursor: pointer;
+        margin-top: 20%;
+    }
+    .cuenta > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .activeGlobal{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .activeGlobal1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media /*(min-width:421px) and*/ (max-width:720px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: Minecraft;
+    }
+    html{
+        background-color: rgb(10, 0, 70);
+        justify-content: center;
+        display: flex;
+    }
+    body{
+        width: 1100px;
+    }
+    #header{
+        width: 100%;
+        height: 102px;
+        border-radius: 21px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    header{
+        /* background-color: darkslategrey; */
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid gold;
+        border-radius: 21px;
+        /* position: fixed;
+        z-index: +1; */
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 21px;
+    }
+    .header > img{
+        border-radius: 21px;
+    }
+    #contenedor{
+        margin-top: 10px;
+        width: 100%;
+        height: 900px;
+        /* background-color: mediumspringgreen; */
+        display: flex;
+        flex-direction: column;
+        border-radius: 21px;
+    }
+    nav{
+        /* background-color: mediumslateblue; */
+        width: 100%;
+        height: 130px;
+        display: flex;
+        border-radius: 21px;
+        border: 2px solid gold;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .novisible{
+        display: none;
+    }
+    ul{
+        width: 100%;
+        height: 60px;
+        /* background-color: brown; */
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+        border-right: 1px solid gold;
+        display: flex;
+    }
+    ul > div{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        border-radius: 21px;
+    }
+    li{
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border: 2px solid gold;
+        border-radius: 21px;
+    }
+    .a{
+        text-decoration: none;
+        transition: ease 0.5s;
+        color: white;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+    }
+    .a:hover{
+        font-size: 120%;
+        /* background-color: coral; */
+        border-radius: 21px;
+        color: gold;
+    }
+    .cajap{
+        width: 100%;
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .pb{
+        width: 40%;
+        height: 60px;
+        font-size: 105%;
+        border-radius: 21px;
+        background: none;
+        color: white;
+        border: 2px solid gold;
+        transition: 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pb:hover{
+        font-size: 125%;
+        /* background: -webkit-radial-gradient(rgb(0, 0, 0), rgb(255, 0, 0)); */
+        color: gold;
+    }
+    #menu{
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 2%;
+        right: 4%;
+    }
+    .menuv{
+        display: block;
+    }
+    .frame{
+        position: absolute;
+    }
+    .nether{
+        position: absolute;
+    }
+    .caja{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 50px;
+        justify-content: center;
+        transition: 0.5s ease;
+    }
+    .textcaja{
+        width: 100%;
+        height: 50px;
+        border-radius: 21px;
+        border: 2px solid gold;
+        text-align: center;
+        justify-content: center;
+        /* background: rgba(0, 0, 0, 60%); */
+        font-size: 1em;
+        display: block;
+        transition: 0.5s ease;
+    }
+    #separador{
+        width: 100%;
+        height: 10px;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(60, 60, 70);
+        border-radius: 21px;
+        border: 2px solid gold;
+        color: snow;
+    }
+    #t{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    #muro{
+        overflow: auto;
+        width: 100%;
+        height: 725px;
+    }
+    #muro::-webkit-scrollbar{
+        width: 1px;
+    }
+    #muro::-webkit-scrollbar-thumb{
+        width: 1px;
+    }
+    #art1{
+        margin-top: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+        height: 690px;
+        width: 94%;
+    }
+    #art1 > div{
+        width: 100%;
+    }
+    footer{
+        /* background-color: white; */
+        color: rgb(0, 255, 234);
+        margin-top: 10px;
+        width: auto;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 21px;
+        border: 2px solid gold; 
+        letter-spacing: 1px;
+        font-size: 1.2em;
+    }
+    footer > p{
+        filter: drop-shadow(0px 0px 9px rgb(19, 19, 91)/*, rgb(255, 0, 0)*/); 
+    }
+    footer > p:hover{
+        transition: all 0.5s ease 0.2s;
+        color: gold;
+        font-size: 109%;
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-acerca{
+        width: 400px;
+        height: 500px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .acer{
+        width: 99%;
+        height: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: gold;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu{
+        height: 200px;
+    }
+    .textpapu{
+        width: auto;
+    }
+    .cheems{
+        height: 190px;
+    }
+    .cerrarbtn{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .overlay2{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active2{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-micuenta{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .micuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active3{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu2{
+        width: auto;
+    }
+    .fcuenta{
+        width: 250px;
+    }
+    .micuenta > .fcuenta > form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+    }
+    .micuenta > .fcuenta > form > input{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        background-color: aqua;
+        color: black;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > input:hover{
+        background-color: lime;
+        color: black;
+    }
+    .micuenta > .fcuenta > form > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .cerrarbtn2{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn2:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .overlay3{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active4{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-cuenta{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .cuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+        color: gold;
+        font-size: 2em;
+    }
+    .cuenta > .perfil{
+        margin-top: 20px;
+    }
+    .cuenta > .correoc{
+        margin-top: 20px;
+        color: aqua;
+        font-size: 25px;
+    }
+    .active5{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .cerrarbtn3{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+        border: none;
+        cursor: pointer;
+    }
+    .cerrarbtn3:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .cuenta > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+        cursor: pointer;
+        margin-top: 20%;
+    }
+    .cuenta > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .activeGlobal{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .activeGlobal1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@media (max-width:520px) {
+    .overlay{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-acerca{
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .acer{
+        width: 99%;
+        height: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: gold;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu{
+        height: 150px;
+    }
+    .textpapu{
+        width: auto;
+    }
+    .cheems{
+        height: 135px;
+    }
+    .cerrarbtn{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .overlay2{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active2{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-micuenta{
+        width: 300px;
+        height: 350px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .micuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+    }
+    .active3{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .papu2{
+        height: 190px;
+    }
+    .fcuenta{
+        width: 220px;
+    }
+    .micuenta > .fcuenta > form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 220px;
+    }
+    .micuenta > .fcuenta > form > input{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        background-color: aqua;
+        color: black;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > input:hover{
+        background-color: lime;
+        color: black;
+    }
+    .micuenta > .fcuenta > form > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+    }
+    .micuenta > .fcuenta > form > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .cerrarbtn2{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+    }
+    .cerrarbtn2:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .overlay3{
+        background-color: rgba(0, 0, 0, 40%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        justify-content: center;
+        display: flex;
+        visibility: visible;
+        transition: 0.5s ease all;
+    }
+    .active4{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .contenedor-cuenta{
+        width: 320px;
+        height: 380px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        top: 2%;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .cuenta{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        padding: 20px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease all;
+        transform: scale(1);
+        color: gold;
+        font-size: 2em;
+    }
+    .cuenta > .perfil{
+        margin-top: 20px;
+    }
+    .cuenta > .correoc{
+        margin-top: 20px;
+        color: aqua;
+        font-size: 25px;
+    }
+    .active5{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .cerrarbtn3{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        background: none;
+        transition: ease 0.5s;
+        border: none;
+        cursor: pointer;
+    }
+    .cerrarbtn3:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .cuenta > button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.5s ease;
+        cursor: pointer;
+        margin-top: 20%;
+    }
+    .cuenta > button:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .activeGlobal{
+        visibility: hidden;
+        opacity: 1;
+    }
+    .activeGlobal1{
+        transform: scale(0.7);
+        visibility: hidden;
+        opacity: 0;
+    }
+}

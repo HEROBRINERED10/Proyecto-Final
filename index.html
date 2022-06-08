@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fonts/Minecraft.css">
+    <title>Preview</title>
+    <script type="text/javascript">
+    </script>
+</head>
+<style>
+    html{
+        background-image: url("images/portal.gif");
+        background-size: 150px;
+        background-position: center;
+    }
+</style>
+<body>
+    <div id="header">
+        <header>
+            <div class="header">
+                <img src="images/Papu\logo.png" alt="" height="99px">
+                <div id="menu" class="menuv" onmousedown="sonido2.play()">
+                    <img src="images/frame.webp" alt="" width="50px" height="50px" class="frame">
+                    <img src="images/Nether_Star.webp" alt="" width="47px" height="47px" class="nether">
+                </div>
+            </div>
+        </header>
+    </div>
+    <style>
+        header{
+            background-image: url("images/netherite.jpeg");
+            background-size: 100px;
+            background-position: center;
+        }
+        .header{
+            background-image: url("images/logo2.png");
+            background-size: 1100px;
+            background-position: center;
+        }
+        nav{
+            background-image: url("images/obsidian.png");
+            background-size: 100px;
+            background-position: center;
+        }
+        li:hover{
+            background-image: url("images/portal.gif");
+            background-size: 30px;
+            cursor: pointer;
+        }
+        .pb:hover{
+            background-image: url("images/portal.gif");
+            background-size: 30px;
+            cursor: pointer;
+        }
+        main{
+            background-image: url("images/end.gif");
+            background-size: 500px;
+            background-position: center;
+        }
+        footer{
+            background-image: url("images/bedrock.jpg");
+            background-size: 150px;
+            background-position: center;
+        }
+    </style>
+    <div id="contenedor">
+        <nav id="nav">
+            <ul id="visible" class="visible">
+                <div>
+                    <li><a href="index.html" class="a">Inicio</a></li>
+                    <li><a class="a" id="abrirbtn">Acerca de</a></li>
+                    <li><a class="a" id="abrirbtn2">Mi cuenta</a></li>
+                </div>
+            </ul>
+            <script type="text/javascript">
+                var sonido2= new Audio();
+                sonido2.src = "sounds/Wither_spawn.mp3";
+            </script>
+            <div class="cajap">
+                <button type="submit" class="pb" id="pb">Publicar</button>
+            <script type="text/javascript">
+                var publicar=document.getElementById("pb");
+                publicar.addEventListener("click", (publicar)=>{
+                    // var actual=document.getElementById("hola").innerHTML;
+                    // console.log(actual);
+                    
+                    const publi=document.getElementById("textcaja").value;
+                    // document.getElementById("hola").innerHTML=actual+publi;
+                    
+                    function sweet1() {
+                        sweetAlert(Swal.fire({
+                            imageUrl: 'images/eh.png',
+	                        imageWidth: '80%%',
+	                        imageHeight: '75%',
+                            background: 'none',
+                            padding:'60px',
+                            title: '!No Has Escrito Nada¡',
+                            color: 'gold',
+                            showconfirmButton:true,
+                            confirmButtonText: 'XD',
+                            showConfirmButton: false,
+                            showCloseButton: 'true'
+                        }));
+                    }
+
+                    function sweet2() {
+                            sweetAlert(Swal.fire({
+                            imageUrl: 'images/RubyLike.png',
+	                        imageWidth: '80%%',
+	                        imageHeight: '75%',
+                            background: 'none',
+                            padding:'60px',
+                            title: '¡ Publicado !',
+                            color: 'gold',
+                            showconfirmButton:true,
+                            confirmButtonText: 'XD',
+                            showConfirmButton: false,
+                            showCloseButton: 'true'
+                        }));
+                    }
+
+                    function reset() {
+                        textcaja.value="";
+                    }
+
+                    function publicado() {
+                        const muro=document.querySelector("#art1");
+                        const pu = document.createElement("div");
+                        var NombrePubli=document.getElementById("perfil").textContent;
+                        // const p = document.createElement("p");
+                        pu.textContent=NombrePubli+" "+"> "+publi;
+
+                        // li.appendChild(p);
+                        muro.appendChild(pu);
+                    }
+
+                    let sound1 = new Audio("sounds/Experience.ogg");
+                    let sound2 = new Audio("sounds/pedo.mp3");
+
+                    if (publi=="") {
+                        sound2.play();
+                        sweet1();
+                    }
+                    else{
+                        sound1.play();
+                        publicado();
+                        // publicacion();
+                        reset();
+                        sweet2();
+                    }
+                });
+            </script>
+            <div class="caja" id="caja">
+                <input type="text" placeholder="Escribe algo..." value="" class="textcaja" id="textcaja">
+                <button type="reset" id="reset1" onclick="reset1()"><img src="images/frame.webp" alt="" width="50px" height="50px" id="reset1-1"></button>
+                <script>
+                    function reset1(){
+                    textcaja.value="";
+                    }
+                </script>
+                <style>
+                    .textcaja{
+                        background-image: url("images/portal.gif");
+                        background-size: 30px;
+                        cursor: pointer;
+                        color: rgba(0, 255, 255, 91%);
+                    }
+                    #reset1{
+                        background: none;
+                        border: none;
+                        width: 50px;
+                        height: 50px;
+                        cursor: pointer;
+                    }
+                    #reset1-1:hover{
+                        transition: ease 0.5s;
+                        height: 45px;
+                        width: 45px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                </style>
+            </div>
+        </div>
+        </nav>
+        <div id="separador"></div>    
+        <main>
+            <aside>
+            
+            </aside>
+            <article id="t">
+                <H1>Muro</H1>
+            </article>
+            <article id="muro">
+                <div id="art1">
+                    <!-- <div id=hola></div> -->
+                    <!-- <ul id="ul"></ul> -->
+                </div>
+            </article>
+        </main>
+    </div>
+    <footer>
+        <p>✮ ꧁⛦Ἦἕѓổ҉ッ꧂  ✮ &copy;</p>
+    </footer>
+    <script src="js/text.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <div class="active" id="overlay">
+        <div class="contenedor-acerca">
+            <div id="acerca" class="active1">
+                <div><img src="images/Papu logo.png" height="250px" class="papu"></div>
+                <div><p class="textpapu">Esta pagina web esta hecha con el fin de que los usuarios puedan comentar, discutir o hacer una pregunta de cualquier tema, 
+                    hecha por un usuario sin restricción. Ni en los comentarios u en respuestas escritas por los demas usuarios.</p></div>
+                <div><img src="images/cheems-samurai.gif" height="230px" class="cheems"></div>
+                <div><button class="cerrarbtn" id="cerrarbtn"><img src="images/swords.png" width="60px" height="60px"></button></div>
+            </div>
+            <style>
+                .acer{
+                    background-image: url("images/portal.gif");
+                    background-size: 50px;
+                    border-radius: 21px;
+                }
+                .cerrarbtn{
+                    border: none;
+                    width: 60px;
+                    height: 60px;
+                    cursor: pointer;
+                }
+            </style>
+            <script>
+                var cerrar=document.getElementById("overlay");
+                var cerrar1=document.getElementById("acerca");
+                cerrarbtn.addEventListener("click", ()=>{
+                    if (cerrar.className=="overlay") {
+                        cerrar.classList.remove("overlay");
+                        cerrar.classList.add("active");
+                        cerrar1.classList.remove("acer");
+                        cerrar1.classList.add("active1");
+                    }
+                });
+                abrirbtn.addEventListener("click", ()=>{
+                    if (cerrar.className=="active") {
+                        cerrar.classList.remove("active");
+                        cerrar.classList.add("overlay");
+                        cerrar1.classList.remove("active1");
+                        cerrar1.classList.add("acer");
+                    }
+                });
+            </script>
+        </div>
+    </div>
+</body>
+<div class="active2" id="overlay2">
+    <div class="contenedor-micuenta">
+        <div class="active3" id="micuenta">
+            <div><img src="images/Papu logo.png" alt="" height="250px" class="papu2"></div>
+            <div class="fcuenta">
+                <form action="">
+                    <input type="text" placeholder="Ingresa tu Nombre" name="Nombre" id="Nombre" class="Nombre" autocomplete="off">
+                    <input type="email" placeholder="Ingresa tu Correo" name="Correo" id="Correo" class="Correo" autocomplete="off">
+                    <input type="password" placeholder="Ingresa tu Contraseña" name="Contraseña" id="Contraseña" class="Contraseña" autocomplete="off">
+                    <button type="submit" value="" id="iniciar" class="iniciar">Iniciar Sesión</button>
+                </form>
+            </div>
+            <div><button class="cerrarbtn2" id="cerrarbtn2"><img src="images/swords.png" alt="" width="60px" height="60px"></button></div>
+        </div>
+        <style>
+            .micuenta{
+                background-image: url("images/portal.gif");
+                background-size: 50px;
+                border-radius: 21px;
+            }
+            .cerrarbtn2{
+                border: none;
+                width: 60px;
+                height: 60px;
+                cursor: pointer;
+            }
+        </style>
+        <script>
+            var cuenta=document.getElementById("overlay2");
+            var cuenta1=document.getElementById("micuenta");
+            var perfil;
+            var perfil1;
+
+            abrirbtn2.addEventListener("click", ()=>{
+                if (cuenta.className=="active2") {
+                    cuenta.classList.remove("active2");
+                    cuenta.classList.add("overlay2");
+                    cuenta1.classList.remove("active3");
+                    cuenta1.classList.add("micuenta")
+                };
+                if (cuenta.className=="activeGlobal") {
+                    perfil.classList.remove("active4");
+                    perfil.classList.add("overlay3");
+                    perfil1.classList.remove("active5");
+                    perfil1.classList.add("cuenta");
+                }
+            });
+            cerrarbtn2.addEventListener("click", ()=>{
+                if (cuenta.className=="overlay2") {
+                    cuenta1.classList.remove("micuenta");
+                    cuenta1.classList.add("active3");
+                    cuenta.classList.remove("overlay2");
+                    cuenta.classList.add("active2");
+                }
+            });
+
+            //validacion de formulario
+            function CerrarVentanaSesion() {
+                cuenta1.classList.remove("micuenta");
+                cuenta1.classList.add("activeGlobal1");
+                cuenta.classList.remove("overlay2");
+                cuenta.classList.add("activeGlobal");
+                perfil.classList.remove("activeGlobal");
+                perfil.classList.add("active4");
+                perfil1.classList.remove("activeGlobal1");
+                perfil1.classList.add("active5");
+            }
+            function recopilar() {
+                const NombreF=Nombre.value;
+                const CorreoF=Correo.value;
+                const ContraseñaF=Contraseña.value;
+            }
+            function rfinal() {
+                const addName=document.querySelector("#perfil");
+                var NombreFinal=Nombre.value;
+                addName.textContent=NombreFinal;
+                const addCorreo=document.querySelector("#correoc");
+                var CorreoFinal=Correo.value;
+                addCorreo.textContent=CorreoFinal;
+            }
+            function limpiar() {
+                Nombre.value="";
+                Correo.value="";
+                Contraseña.value="";
+
+                Nombre.placeholder="Ingresa tu Nombre";
+                Correo.placeholder="Ingresa tu Correo";
+                Contraseña.placeholder="Ingresa tu Contraseña";
+            }
+
+            var iniciar=document.getElementById("iniciar");
+            iniciar.addEventListener("click", (v)=>{
+                v.preventDefault();
+                var NombreV=document.getElementById("Nombre").value;
+                var CorreoV=document.getElementById("Correo").value;
+                var ContraseñaV=document.getElementById("Contraseña").value;
+
+                let Nombre=document.getElementById("Nombre");
+                let Correo=document.getElementById("Correo");
+                let Contraseña=document.getElementById("Contraseña");
+
+                if (NombreV,CorreoV,ContraseñaV=="") {
+                    let Nombreclass=document.getElementById("Nombre");
+                    Nombreclass.placeholder="Aun No Has Escrito Aqui";
+
+                    let Correoclass=document.getElementById("Correo");
+                    Correoclass.placeholder="Aun No Has Escrito Aqui";
+
+                    let Contraseñaclass=document.getElementById("Contraseña");
+                    Contraseñaclass.placeholder="Aun No Has Escrito Aqui";
+                }else{
+                    recopilar();
+                    rfinal();
+                    limpiar();
+                    CerrarVentanaSesion();
+                }
+ 
+            });
+            Nombre.addEventListener("click", ()=>{
+                if (Nombre.placeholder=="Aun No Has Escrito Aqui") {
+                    Nombre.placeholder="Ingresa tu Nombre";
+                }
+            });
+            Correo.addEventListener("click", ()=>{
+                if (Correo.placeholder=="Aun No Has Escrito Aqui") {
+                    Correo.placeholder="Ingresa tu Correo";
+                }
+            });
+            Contraseña.addEventListener("click", ()=>{
+                if (Contraseña.placeholder=="Aun No Has Escrito Aqui") {
+                    Contraseña.placeholder="Ingresa tu Contraseña";
+                }
+            });
+        </script>
+    </div>
+</div>
+<div class="activeGlobal" id="overlay3">
+    <div class="contenedor-cuenta">
+        <div class="activeGlobal1" id="cuenta">
+            <h6>Tu Perfil:</h6>
+            <img src="images/perfil.png" alt="" width="40%" height="38%">
+            <div class="perfil" id="perfil"></div>
+            <div class="correoc" id="correoc"></div>
+            <button id="cerrarsesion" class="cerrarsesion">Cerrar Sesión</button>
+            <div><button class="cerrarbtn3" id="cerrarbtn3"><img src="images/swords.png" alt="" width="60px" height="60px"></button></div>
+        </div>
+        <style>
+            .cuenta{
+                background-image: url("images/portal.gif");
+                background-size: 50px;
+                border-radius: 21px;
+            }
+        </style>
+        <script>
+            var perfil=document.getElementById("overlay3");
+            var perfil1=document.getElementById("cuenta");
+
+            // abrirbtn2.addEventListener("click", ()=>{
+            //     if (perfil.className=="active4") {
+            //         perfil.classList.remove("active4");
+            //         perfil.classList.add("overlay3");
+            //         perfil1.classList.remove("active5");
+            //         perfil1.classList.add("cuenta")
+            //     }
+            // });
+            cerrarbtn3.addEventListener("click", ()=>{
+                if (perfil.className=="overlay3") {
+                    perfil1.classList.remove("cuenta");
+                    perfil1.classList.add("active5");
+                    perfil.classList.remove("overlay3");
+                    perfil.classList.add("active4");
+                }
+            });
+            cerrarsesion.addEventListener("click", ()=>{
+                var delateName=document.getElementById("perfil");
+                delateName.textContent="";
+
+                cuenta1.classList.remove("activeGlobal1");
+                cuenta1.classList.add("active3");
+                cuenta.classList.remove("activeGlobal");
+                cuenta.classList.add("active2");
+                perfil.classList.remove("active4");
+                perfil.classList.add("activeGlobal");
+                perfil1.classList.remove("active5");
+                perfil1.classList.add("activeGlobal1");
+            })
+        </script>
+    </div>
+</div>
+</html>
